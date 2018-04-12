@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root 'application#hello'
-  get '/' => 'sessions#new'
+  get '/new' => 'sessions#new'
   post '/' => 'sessions#create'
   post '/' => 'sessions#destroy'
 
